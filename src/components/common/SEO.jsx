@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async';
+import { useEffect } from 'react';
 
 const SEO = ({ 
   title, 
@@ -21,41 +21,87 @@ const SEO = ({
   const finalImage = image || defaultImage;
   const finalUrl = url || defaultUrl;
 
-  return (
-    <Helmet>
-      {/* Primary Meta Tags */}
-      <title>{finalTitle}</title>
-      <meta name="title" content={finalTitle} />
-      <meta name="description" content={finalDescription} />
-      <meta name="keywords" content={finalKeywords} />
-      
-      {/* Open Graph / Facebook */}
-      <meta property="og:type" content={type} />
-      <meta property="og:url" content={finalUrl} />
-      <meta property="og:title" content={finalTitle} />
-      <meta property="og:description" content={finalDescription} />
-      <meta property="og:image" content={finalImage} />
-      <meta property="og:site_name" content="Codexa" />
-      <meta property="og:locale" content="en_US" />
-      
-      {/* Twitter */}
-      <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content={finalUrl} />
-      <meta property="twitter:title" content={finalTitle} />
-      <meta property="twitter:description" content={finalDescription} />
-      <meta property="twitter:image" content={finalImage} />
-      
-      {/* Canonical URL */}
-      <link rel="canonical" href={finalUrl} />
-      
-      {/* Structured Data */}
-      {structuredData && (
-        <script type="application/ld+json">
-          {JSON.stringify(structuredData)}
-        </script>
-      )}
-    </Helmet>
-  );
+  useEffect(() => {
+    // Update document title
+    document.title = finalTitle;
+
+    // Update or create meta tags
+    const updateMetaTag = (name, content) => {
+      let meta = document.querySelector(`meta[name="${name}"]`);
+      if (!meta) {
+        meta = document.createElement('meta');
+        meta.name = name;
+        document.head.appendChild(meta);
+      }
+      meta.content = content;
+    };
+
+    const updatePropertyTag = (property, content) => {
+      let meta = document.querySelector(`meta[property="${property}"]`);
+      if (!meta) {
+        meta = document.createElement('meta');
+        meta.setAttribute('property', property);
+        document.head.appendChild(meta);
+      }
+      meta.content = content;
+    };
+
+    // Update primary meta tags
+    updateMetaTag('title', finalTitle);
+    updateMetaTag('description', finalDescription);
+    updateMetaTag('keywords', finalKeywords);
+    
+    // Update Open Graph tags
+    updatePropertyTag('og:type', type);
+    updatePropertyTag('og:url', finalUrl);
+    updatePropertyTag('og:title', finalTitle);
+    updatePropertyTag('og:description', finalDescription);
+    updatePropertyTag('og:image', finalImage);
+    updatePropertyTag('og:site_name', 'Codexa');
+    updatePropertyTag('og:locale', 'en_US');
+    
+    // Update Twitter tags
+    updatePropertyTag('twitter:card', 'summary_large_image');
+    updatePropertyTag('twitter:url', finalUrl);
+    updatePropertyTag('twitter:title', finalTitle);
+    updatePropertyTag('twitter:description', finalDescription);
+    updatePropertyTag('twitter:image', finalImage);
+    
+    // Update canonical URL
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement('link');
+      canonical.rel = 'canonical';
+      document.head.appendChild(canonical);
+    }
+    canonical.href = finalUrl;
+
+    // Add structured data
+    if (structuredData) {
+      // Remove existing structured data
+      const existingScripts = document.querySelectorAll('script[type="application/ld+json"]');
+      existingScripts.forEach(script => {
+        if (script.textContent.includes('"@context":"https://schema.org"')) {
+          script.remove();
+        }
+      });
+
+      // Add new structured data
+      const script = document.createElement('script');
+      script.type = 'application/ld+json';
+      script.textContent = JSON.stringify(structuredData);
+      document.head.appendChild(script);
+    }
+
+    // Cleanup function
+    return () => {
+      // Reset to default title when component unmounts
+      document.title = defaultTitle;
+    };
+  }, [finalTitle, finalDescription, finalKeywords, finalImage, finalUrl, type, structuredData]);
+
+  // This component doesn't render anything visible
+  return null;
 };
 
 export default SEO;

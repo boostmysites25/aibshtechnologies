@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { HelmetProvider } from 'react-helmet-async';
 import WebsiteLayout from "./components/website/Layout";
 import LandingPageLayout from "./components/landingpage/Layout";
 
@@ -33,39 +32,37 @@ Aos.init({
 
 function App() {
   return (
-    <HelmetProvider>
-      <Suspense fallback={<LoadingSpinner />}>
-        <BrowserRouter>
-          <SpinnerContextProvider>
-              <ScrollToTop />
-              <WhatsappButton />
-              <Toaster />
-              <LoadingSpinnerContext />
-              <Routes>
-                <Route path="/" element={<WebsiteLayout />}>
-                  <Route index element={<Home />} />
-                  <Route path="about-us" element={<AboutUs />} />
-                  <Route path="contact-us" element={<ContactUs />} />
-                  <Route path="blogs" element={<Blogs />} />
-                  <Route path="services" element={<Services />} />
-                  <Route path="services/:param" element={<ServiceDetails />} />
-                </Route>
-                <Route path="/" element={<LandingPageLayout />}>
-                  <Route
-                    path="web-development"
-                    element={<LandingPage page="web" />}
-                  />
-                  <Route
-                    path="app-development"
-                    element={<LandingPage page="app" />}
-                  />
-                </Route>
-                 <Route path='/thank-you' element={<ThankYou/>}/>
-              </Routes>
-          </SpinnerContextProvider>
-        </BrowserRouter>
-      </Suspense>
-    </HelmetProvider>
+    <Suspense fallback={<LoadingSpinner />}>
+      <BrowserRouter>
+        <SpinnerContextProvider>
+            <ScrollToTop />
+            <WhatsappButton />
+            <Toaster />
+            <LoadingSpinnerContext />
+            <Routes>
+              <Route path="/" element={<WebsiteLayout />}>
+                <Route index element={<Home />} />
+                <Route path="about-us" element={<AboutUs />} />
+                <Route path="contact-us" element={<ContactUs />} />
+                <Route path="blogs" element={<Blogs />} />
+                <Route path="services" element={<Services />} />
+                <Route path="services/:param" element={<ServiceDetails />} />
+              </Route>
+              <Route path="/" element={<LandingPageLayout />}>
+                <Route
+                  path="web-development"
+                  element={<LandingPage page="web" />}
+                />
+                <Route
+                  path="app-development"
+                  element={<LandingPage page="app" />}
+                />
+              </Route>
+               <Route path='/thank-you' element={<ThankYou/>}/>
+            </Routes>
+        </SpinnerContextProvider>
+      </BrowserRouter>
+    </Suspense>
   );
 }
 

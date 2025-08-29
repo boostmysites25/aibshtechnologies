@@ -1,4 +1,4 @@
-import bannerImg from "../../assets/images/banner.jpg";
+
 import Button from "../../components/common/Button";
 import webAboutImg from "../../assets/images/landing page/web-about.jpg";
 import appAboutImg from "../../assets/images/landing page/app-about.png";
@@ -17,6 +17,7 @@ import ClientLogos from "../../components/common/ClientLogos";
 import { useEffect } from "react";
 import gsap from "gsap";
 import robot from "../../assets/images/ai-robot.png";
+import SEO from "../../components/common/SEO";
 
 export default function LandingPage({ page }) {
   const isWeb = page === "web";
@@ -26,6 +27,60 @@ export default function LandingPage({ page }) {
   ).serviceDetails;
 
   const portfolio = isWeb ? webDevelopmentPortfolio : appDevelopmentPortfolio;
+
+  // SEO data for landing pages
+  const seoData = {
+    web: {
+      title: "Web Development Services - Custom Websites & Web Applications | Codexa",
+      description: "Elevate your business with cutting-edge web solutions. Codexa creates custom-built websites and web applications designed to deliver exceptional user experiences and drive business growth.",
+      keywords: "web development, custom websites, web applications, responsive design, e-commerce websites, React development, frontend development, backend development, full-stack development",
+      url: "https://codexa.com/web-development"
+    },
+    app: {
+      title: "Mobile App Development - iOS & Android Apps | Codexa",
+      description: "Transform your business with next-generation mobile apps. Codexa crafts custom-built mobile applications for iOS, Android, and cross-platform environments that drive engagement and growth.",
+      keywords: "mobile app development, iOS app development, Android app development, cross-platform apps, React Native, Flutter, mobile applications, app design, mobile development",
+      url: "https://codexa.com/app-development"
+    }
+  };
+
+  // Structured data for landing pages
+  const landingPageStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": isWeb ? "Web Development Services" : "Mobile App Development Services",
+    "description": isWeb 
+      ? "Custom web development services including responsive websites, web applications, and e-commerce solutions"
+      : "Custom mobile app development services for iOS, Android, and cross-platform applications",
+    "url": seoData[isWeb ? 'web' : 'app'].url,
+    "provider": {
+      "@type": "Organization",
+      "name": "Codexa",
+      "url": "https://codexa.com"
+    },
+    "serviceType": isWeb ? "Web Development" : "Mobile App Development",
+    "areaServed": {
+      "@type": "Country",
+      "name": "Worldwide"
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://codexa.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": isWeb ? "Web Development" : "App Development",
+          "item": seoData[isWeb ? 'web' : 'app'].url
+        }
+      ]
+    }
+  };
 
   useEffect(() => {
       const tl = gsap.timeline();
@@ -41,8 +96,19 @@ export default function LandingPage({ page }) {
         tl.kill();
       };
     }, []);
+
+  const currentSeoData = seoData[isWeb ? 'web' : 'app'];
+
   return (
     <>
+      <SEO 
+        title={currentSeoData.title}
+        description={currentSeoData.description}
+        keywords={currentSeoData.keywords}
+        url={currentSeoData.url}
+        structuredData={landingPageStructuredData}
+      />
+      
       <section className="min-h-screen flex items-center relative">
         <div className="wrapper flex flex-col-reverse lg:grid grid-cols-[65%_1fr] items-center lg:items-end gap-5">
           <div
@@ -67,7 +133,7 @@ export default function LandingPage({ page }) {
             <p className="desc max-w-2xl pb-3">
               {isWeb
                 ? "Your website is the digital face of your business. It deserves to be innovative, user-friendly, and aligned with the latest trends. At Codexa, we create custom-built web solutions designed to deliver exceptional user experiences, seamless functionality, and business growth."
-                : "Your business deserves a mobile app that not only meets today’s needs but is ready for the challenges of tomorrow. At Codexa, we craft custom-built mobile applications that deliver seamless user experiences, drive engagement, and accelerate growth across iOS, Android, and cross-platform environments."}
+                : "Your business deserves a mobile app that not only meets today's needs but is ready for the challenges of tomorrow. At Codexa, we craft custom-built mobile applications that deliver seamless user experiences, drive engagement, and accelerate growth across iOS, Android, and cross-platform environments."}
             </p>
             <Button scrollTo="contact" offset={100}>
               Get Started
@@ -94,7 +160,7 @@ export default function LandingPage({ page }) {
              ${robot} 600w,
              ${robot} 1200w`}
               sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
-              alt="robot"
+              alt={isWeb ? "AI Robot representing Codexa's web development solutions" : "AI Robot representing Codexa's mobile app development solutions"}
               width="600"
               height="400"
               className="h-[32vh] lg:h-[40vh] w-fit object-contain"
