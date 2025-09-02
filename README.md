@@ -1,8 +1,8 @@
-# Codexa - Digital Innovation & Technology Solutions
+# AiBik Tech Solutions - Digital Innovation & Technology Solutions
 
 ## Overview
 
-Codexa is a leading technology company specializing in comprehensive digital solutions including web development, mobile applications, AI solutions, data science, custom software development, game development, and UI/UX design. Our mission is to transform businesses through innovative technology solutions and strategic digital partnerships.
+AiBik Tech Solutions is a leading technology company specializing in comprehensive digital solutions including web development, mobile applications, AI solutions, data science, custom software development, game development, and UI/UX design. Our mission is to transform businesses through innovative technology solutions and strategic digital partnerships.
 
 ## 🌟 Key Features
 
@@ -74,8 +74,8 @@ src/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/codexa-website.git
-cd codexa-website
+git clone https://github.com/your-username/AiBik Tech Solutions-website.git
+cd AiBik Tech Solutions-website
 ```
 
 2. Install dependencies:
@@ -177,7 +177,7 @@ The website is optimized for deployment on:
 
 ## 📄 License
 
-This project is proprietary software owned by Codexa.
+This project is proprietary software owned by AiBik Tech Solutions.
 
 ## 🤝 Contributing
 
@@ -185,4 +185,4 @@ For internal development and contributions, please follow the established coding
 
 ---
 
-**Codexa** - Transforming businesses through innovative technology solutions.
+**AiBik Tech Solutions** - Transforming businesses through innovative technology solutions.

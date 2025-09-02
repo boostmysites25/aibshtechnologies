@@ -22,7 +22,7 @@ export default function Testimonials() {
         <p className="desc max-w-4xl mx-auto">
           Our testimonials highlight the success stories of healthcare
           organizations that have transformed patient care and operations with
-          our innovative, spec-driven solutions. See how Codexa delivers
+          our innovative, spec-driven solutions. See how AiBik Tech Solutions delivers
           measurable results and exceeds client expectations.
         </p>
       </div>

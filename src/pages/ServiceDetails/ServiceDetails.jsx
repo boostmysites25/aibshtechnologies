@@ -30,11 +30,11 @@ const ServiceDetails = () => {
     "@type": "Service",
     "name": title,
     "description": desc,
-    "url": `https://codexa.com/services/${param}`,
+    "url": `https://AiBikTechSolutions.com/services/${param}`,
     "provider": {
       "@type": "Organization",
-      "name": "Codexa",
-      "url": "https://codexa.com"
+      "name": "AiBik Tech Solutions",
+      "url": "https://AiBikTechSolutions.com"
     },
     "serviceType": title,
     "areaServed": {
@@ -60,19 +60,19 @@ const ServiceDetails = () => {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://codexa.com"
+          "item": "https://AiBikTechSolutions.com"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Services",
-          "item": "https://codexa.com/services"
+          "item": "https://AiBikTechSolutions.com/services"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": title,
-          "item": `https://codexa.com/services/${param}`
+          "item": `https://AiBikTechSolutions.com/services/${param}`
         }
       ]
     }
@@ -81,10 +81,10 @@ const ServiceDetails = () => {
   return (
     <>
       <SEO 
-        title={`${title} - ${subHeading} | Codexa`}
+        title={`${title} - ${subHeading} | AiBik Tech Solutions`}
         description={desc}
-        keywords={`${title.toLowerCase()}, ${title.toLowerCase()} services, ${title.toLowerCase()} development, digital solutions, technology services, Codexa ${title.toLowerCase()}`}
-        url={`https://codexa.com/services/${param}`}
+        keywords={`${title.toLowerCase()}, ${title.toLowerCase()} services, ${title.toLowerCase()} development, digital solutions, technology services, AiBik Tech Solutions ${title.toLowerCase()}`}
+        url={`https://AiBikTechSolutions.com/services/${param}`}
         structuredData={serviceStructuredData}
       />
       

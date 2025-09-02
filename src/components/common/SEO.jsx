@@ -9,11 +9,11 @@ const SEO = ({
   type = 'website',
   structuredData = null 
 }) => {
-  const defaultTitle = "Codexa - Leading Web Development, Mobile Apps, AI Solutions & Digital Innovation";
-  const defaultDescription = "Codexa transforms businesses with cutting-edge web development, mobile apps, AI solutions, data science, and custom software. Expert digital innovation partner for modern businesses.";
+  const defaultTitle = "AiBik Tech Solutions - Leading Web Development, Mobile Apps, AI Solutions & Digital Innovation";
+  const defaultDescription = "AiBik Tech Solutions transforms businesses with cutting-edge web development, mobile apps, AI solutions, data science, and custom software. Expert digital innovation partner for modern businesses.";
   const defaultKeywords = "web development, mobile app development, AI solutions, data science, custom software, digital transformation, technology consulting, React development, iOS apps, Android apps, machine learning, artificial intelligence, e-commerce solutions, healthcare technology, fintech solutions";
   const defaultImage = "/logo.png";
-  const defaultUrl = "https://codexa.com";
+  const defaultUrl = "https://AiBikTechSolutions.com";
 
   const finalTitle = title || defaultTitle;
   const finalDescription = description || defaultDescription;
@@ -57,7 +57,7 @@ const SEO = ({
     updatePropertyTag('og:title', finalTitle);
     updatePropertyTag('og:description', finalDescription);
     updatePropertyTag('og:image', finalImage);
-    updatePropertyTag('og:site_name', 'Codexa');
+    updatePropertyTag('og:site_name', 'AiBik Tech Solutions');
     updatePropertyTag('og:locale', 'en_US');
     
     // Update Twitter tags

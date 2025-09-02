@@ -12,13 +12,13 @@ const AboutUs = () => {
   const aboutStructuredData = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    "name": "About Codexa - Our Story, Mission & Digital Innovation Journey",
-    "description": "Discover Codexa's journey from innovative ideas to technological reality. Learn about our mission to bridge the gap between business challenges and digital transformation solutions.",
-    "url": "https://codexa.com/about-us",
+    "name": "About AiBik Tech Solutions - Our Story, Mission & Digital Innovation Journey",
+    "description": "Discover AiBik Tech Solutions's journey from innovative ideas to technological reality. Learn about our mission to bridge the gap between business challenges and digital transformation solutions.",
+    "url": "https://AiBikTechSolutions.com/about-us",
     "mainEntity": {
       "@type": "Organization",
-      "name": "Codexa",
-      "description": "Codexa was born from a simple yet powerful vision: to bridge the gap between innovative ideas and technological reality. We believe that every business challenge is an opportunity for digital transformation.",
+      "name": "AiBik Tech Solutions",
+      "description": "AiBik Tech Solutions was born from a simple yet powerful vision: to bridge the gap between innovative ideas and technological reality. We believe that every business challenge is an opportunity for digital transformation.",
       "foundingDate": "2020",
       "mission": "To transform businesses through innovative technology solutions and strategic digital partnerships",
       "address": {
@@ -37,13 +37,13 @@ const AboutUs = () => {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://codexa.com"
+          "item": "https://AiBikTechSolutions.com"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "About Us",
-          "item": "https://codexa.com/about-us"
+          "item": "https://AiBikTechSolutions.com/about-us"
         }
       ]
     }
@@ -52,10 +52,10 @@ const AboutUs = () => {
   return (
     <>
       <SEO 
-        title="About Codexa - Our Story, Mission & Digital Innovation Journey"
-        description="Discover Codexa's journey from innovative ideas to technological reality. Learn about our mission to bridge the gap between business challenges and digital transformation solutions."
-        keywords="about Codexa, digital transformation company, technology innovation, software development company, web development team, mobile app developers, AI solutions provider, data science experts"
-        url="https://codexa.com/about-us"
+        title="About AiBik Tech Solutions - Our Story, Mission & Digital Innovation Journey"
+        description="Discover AiBik Tech Solutions's journey from innovative ideas to technological reality. Learn about our mission to bridge the gap between business challenges and digital transformation solutions."
+        keywords="about AiBik Tech Solutions, digital transformation company, technology innovation, software development company, web development team, mobile app developers, AI solutions provider, data science experts"
+        url="https://AiBikTechSolutions.com/about-us"
         structuredData={aboutStructuredData}
       />
       
@@ -64,7 +64,7 @@ const AboutUs = () => {
         <img
           src={banner}
           className="object-cover w-full h-full absolute inset-0 z-[-2]"
-          alt="Codexa About Us Banner - Our Digital Innovation Journey"
+          alt="AiBik Tech Solutions About Us Banner - Our Digital Innovation Journey"
         />
         <div className="wrapper flex h-full py-16 items-end">
           <h1 data-aos="fade-right" className="text_xl">
@@ -79,7 +79,7 @@ const AboutUs = () => {
         ></div>
         <div className="wrapper">
           <h2 data-aos="fade-up" className="text1 text-center">
-            The Codexa Journey
+            The AiBik Tech Solutions Journey
           </h2>
           <div className="grid md:grid-cols-[40%_1fr] gap-8 pt-5">
             <div className="rounded-xl overflow-hidden">
@@ -88,12 +88,12 @@ const AboutUs = () => {
                 loading="lazy"
                 src={img1}
                 className="w-full h-full aspect-square object-cover"
-                alt="Codexa's story and journey in technology innovation"
+                alt="AiBik Tech Solutions's story and journey in technology innovation"
               />
             </div>
             <div data-aos="fade-up">
               <p className="desc">
-                Codexa was born from a simple yet powerful vision: to bridge the gap between innovative ideas and technological reality. We believe that every business challenge is an opportunity for digital transformation, and every client relationship is a partnership for success. Our journey began with a team of passionate technologists who understood that great software isn't just about code—it's about understanding human needs, business objectives, and market dynamics. Today, Codexa stands as a testament to our commitment to excellence, innovation, and client success, delivering cutting-edge solutions that drive real business impact across industries worldwide.
+                AiBik Tech Solutions was born from a simple yet powerful vision: to bridge the gap between innovative ideas and technological reality. We believe that every business challenge is an opportunity for digital transformation, and every client relationship is a partnership for success. Our journey began with a team of passionate technologists who understood that great software isn't just about code—it's about understanding human needs, business objectives, and market dynamics. Today, AiBik Tech Solutions stands as a testament to our commitment to excellence, innovation, and client success, delivering cutting-edge solutions that drive real business impact across industries worldwide.
               </p>
             </div>
           </div>
@@ -119,7 +119,7 @@ const AboutUs = () => {
           <div data-aos="fade-up" className="space-y-3">
             <h2 className="text2">Beyond Projects: Your Digital Transformation Partner</h2>
             <p className="desc">
-              At Codexa, we're not just a service provider—we're your strategic partner in digital transformation. Our commitment extends far beyond project completion, ensuring your long-term success in an ever-evolving digital landscape.
+              At AiBik Tech Solutions, we're not just a service provider—we're your strategic partner in digital transformation. Our commitment extends far beyond project completion, ensuring your long-term success in an ever-evolving digital landscape.
             </p>
             <ul className="space-y-5 pt-3">
               <li>
@@ -183,7 +183,7 @@ const AboutUs = () => {
           <div data-aos="fade-up" className="space-y-3">
             <h3 className="text2">Partnership Beyond Projects</h3>
             <p className="desc">
-              At Codexa, we’re committed to your growth, even after
+              At AiBik Tech Solutions, we’re committed to your growth, even after
               project completion: Future
             </p>
             <ul className="space-y-5 pt-3">
@@ -232,15 +232,15 @@ const AboutUs = () => {
             className="z-[-1] w-[6rem] h-[6rem] rounded-full bg-[radial-gradient(circle,_#FFFFFF,_#FFFF82)] absolute top-full right-[15%] drop-shadow-2xl"
           ></div>
           <h2 data-aos="fade-up" className="text1 text-primary2">
-            Codexa's Vision for Tomorrow
+            AiBik Tech Solutions's Vision for Tomorrow
           </h2>
           <p data-aos="fade-up" className="desc max-w-4xl mx-auto">
-            Codexa envisions a future where technology seamlessly bridges the gap between human potential and digital innovation. We strive to be the catalyst that transforms complex business challenges into elegant, AI-powered solutions that drive measurable impact. Our vision extends beyond traditional software development—we're building the foundation for a world where businesses thrive through intelligent automation, data-driven insights, and collaborative innovation. We're committed to empowering organizations to not just adapt to change, but to lead it, creating sustainable growth and meaningful connections in an increasingly digital world.
+            AiBik Tech Solutions envisions a future where technology seamlessly bridges the gap between human potential and digital innovation. We strive to be the catalyst that transforms complex business challenges into elegant, AI-powered solutions that drive measurable impact. Our vision extends beyond traditional software development—we're building the foundation for a world where businesses thrive through intelligent automation, data-driven insights, and collaborative innovation. We're committed to empowering organizations to not just adapt to change, but to lead it, creating sustainable growth and meaningful connections in an increasingly digital world.
           </p>
         </div>
         <div className="wrapper py-16 text-center">
           <h2 data-aos="fade-up" className="text1 text-primary2">
-            Codexa's Strategic Roadmap
+            AiBik Tech Solutions's Strategic Roadmap
           </h2>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-7 pt-7">
             {futureGoals.map((item) => (

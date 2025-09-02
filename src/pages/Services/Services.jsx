@@ -12,18 +12,18 @@ const Services = () => {
   const servicesStructuredData = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Codexa Digital Services",
+    "name": "AiBik Tech Solutions Digital Services",
     "description": "Comprehensive digital services including web development, mobile apps, AI solutions, data science, custom software, game development, and UI/UX design",
-    "url": "https://codexa.com/services",
+    "url": "https://AiBikTechSolutions.com/services",
     "itemListElement": ourServices.map((service, index) => ({
       "@type": "Service",
       "position": index + 1,
       "name": service.title,
       "description": service.desc,
-      "url": `https://codexa.com/services/${createUrlParam(service.title)}`,
+      "url": `https://AiBikTechSolutions.com/services/${createUrlParam(service.title)}`,
       "provider": {
         "@type": "Organization",
-        "name": "Codexa"
+        "name": "AiBik Tech Solutions"
       }
     })),
     "breadcrumb": {
@@ -33,13 +33,13 @@ const Services = () => {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://codexa.com"
+          "item": "https://AiBikTechSolutions.com"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Services",
-          "item": "https://codexa.com/services"
+          "item": "https://AiBikTechSolutions.com/services"
         }
       ]
     }
@@ -49,9 +49,9 @@ const Services = () => {
     <>
       <SEO 
         title="Our Services - Web Development, Mobile Apps, AI Solutions & Digital Innovation"
-        description="Explore Codexa's comprehensive digital services including web development, mobile apps, AI solutions, data science, custom software, game development, and UI/UX design."
+        description="Explore AiBik Tech Solutions's comprehensive digital services including web development, mobile apps, AI solutions, data science, custom software, game development, and UI/UX design."
         keywords="web development services, mobile app development, AI solutions, data science services, custom software development, game development, UI UX design, digital transformation services, technology consulting"
-        url="https://codexa.com/services"
+        url="https://AiBikTechSolutions.com/services"
         structuredData={servicesStructuredData}
       />
       
@@ -60,7 +60,7 @@ const Services = () => {
         <img
           src={banner}
           className="object-cover w-full h-full absolute inset-0 z-[-2]"
-          alt="Codexa Services Banner - Comprehensive Digital Solutions"
+          alt="AiBik Tech Solutions Services Banner - Comprehensive Digital Solutions"
         />
         <div className="wrapper flex h-full py-[6rem] md:pt-[8rem] pb-16 items-center justify-start">
           <h1 data-aos="fade-right" className="text_xl">

@@ -25,43 +25,43 @@ export const industries = [
     id: 1,
     title: "FinTech and Banking",
     image: "/assets/images/icons/FinTech and Banking.png",
-    desc: "Codexa revolutionizes financial services with secure, scalable fintech solutions, AI-powered risk assessment, and blockchain integration for modern banking operations.",
+    desc: "AiBik Tech Solutions revolutionizes financial services with secure, scalable fintech solutions, AI-powered risk assessment, and blockchain integration for modern banking operations.",
   },
   {
     id: 2,
     title: "Healthcare and Biotech",
     image: "/assets/images/icons/Healthcare and Biotech.png",
-    desc: "Codexa transforms healthcare delivery with AI-powered diagnostics, telemedicine platforms, and data-driven solutions that enhance patient care and operational efficiency.",
+    desc: "AiBik Tech Solutions transforms healthcare delivery with AI-powered diagnostics, telemedicine platforms, and data-driven solutions that enhance patient care and operational efficiency.",
   },
   {
     id: 3,
     title: "E-commerce and Retail",
     image: "/assets/images/icons/E-commerce and Retail.png",
-    desc: "Codexa creates immersive e-commerce experiences with AI-driven personalization, AR-powered shopping, and scalable platforms that drive conversion and customer engagement.",
+    desc: "AiBik Tech Solutions creates immersive e-commerce experiences with AI-driven personalization, AR-powered shopping, and scalable platforms that drive conversion and customer engagement.",
   },
   {
     id: 4,
     title: "Gaming and Entertainment",
     image: "/assets/images/icons/Gaming and Entertainment.png",
-    desc: "Codexa crafts next-generation gaming experiences with cutting-edge graphics, multiplayer systems, and immersive AR/VR technologies that captivate audiences worldwide.",
+    desc: "AiBik Tech Solutions crafts next-generation gaming experiences with cutting-edge graphics, multiplayer systems, and immersive AR/VR technologies that captivate audiences worldwide.",
   },
   {
     id: 5,
     title: "Logistics and Supply Chain",
     image: "/assets/images/icons/Logistics and Supply Chain Management.png",
-    desc: "Codexa optimizes supply chains with IoT-driven tracking, AI-powered route optimization, and real-time analytics that enhance efficiency and reduce operational costs.",
+    desc: "AiBik Tech Solutions optimizes supply chains with IoT-driven tracking, AI-powered route optimization, and real-time analytics that enhance efficiency and reduce operational costs.",
   },
   {
     id: 6,
     title: "Education and E-Learning",
     image: "/assets/images/icons/Education and E-Learning.png",
-    desc: "Codexa revolutionizes education with adaptive learning platforms, virtual classrooms, and AI-powered content personalization that enhances student engagement and outcomes.",
+    desc: "AiBik Tech Solutions revolutionizes education with adaptive learning platforms, virtual classrooms, and AI-powered content personalization that enhances student engagement and outcomes.",
   },
   {
     id: 7,
     title: "Restaurants and Hotels",
     image: "/assets/images/icons/Restaurants and Hotels.png",
-    desc: "Codexa elevates hospitality with smart booking systems, AI-powered guest services, and digital solutions that enhance customer experiences and operational efficiency.",
+    desc: "AiBik Tech Solutions elevates hospitality with smart booking systems, AI-powered guest services, and digital solutions that enhance customer experiences and operational efficiency.",
   },
 ];
 
@@ -70,7 +70,7 @@ export const testimonials = [
     name: "Christopher",
     image: require("../assets/images/testimonial/2.jpg"),
     review:
-      "Codexa transformed our healthcare platform with AI-powered diagnostics and seamless patient management. Their innovative approach and technical expertise exceeded all our expectations.",
+      "AiBik Tech Solutions transformed our healthcare platform with AI-powered diagnostics and seamless patient management. Their innovative approach and technical expertise exceeded all our expectations.",
     position: "CTO",
     company: "MEDTECH INNOVATIONS",
   },
@@ -78,7 +78,7 @@ export const testimonials = [
     name: "Michael Chen",
     image: require("../assets/images/testimonial/3.jpg"),
     review:
-      "Working with Codexa was a game-changer for our fintech startup. They delivered a secure, scalable platform that helped us process millions of transactions with zero downtime.",
+      "Working with AiBik Tech Solutions was a game-changer for our fintech startup. They delivered a secure, scalable platform that helped us process millions of transactions with zero downtime.",
     position: "Founder & CEO",
     company: "DIGITAL PAY SOLUTIONS",
   },
@@ -86,7 +86,7 @@ export const testimonials = [
     name: "Emily Rodriguez",
     image: require("../assets/images/testimonial/1.jpg"),
     review:
-      "Codexa's AI and data science solutions revolutionized our e-commerce platform. Their personalized recommendation engine increased our conversion rates by 40% within the first quarter.",
+      "AiBik Tech Solutions's AI and data science solutions revolutionized our e-commerce platform. Their personalized recommendation engine increased our conversion rates by 40% within the first quarter.",
     position: "VP of Technology",
     company: "RETAIL TECH CORP",
   },
@@ -97,7 +97,7 @@ export const futureGoals = [
     icon: <IoChatbubblesOutline size={30} />,
     title: "Expand Solutions for Modern Business",
     description:
-      "Codexa is committed to expanding our service portfolio to meet the evolving needs of modern businesses, becoming the go-to partner for transformative technology solutions.",
+      "AiBik Tech Solutions is committed to expanding our service portfolio to meet the evolving needs of modern businesses, becoming the go-to partner for transformative technology solutions.",
   },
   {
     icon: <IoDiamondOutline size={30} />,
@@ -109,7 +109,7 @@ export const futureGoals = [
     icon: <RiTeamLine size={30} />,
     title: "Build Stronger Client Partnerships",
     description:
-      "Codexa focuses on building long-term partnerships with our clients, understanding their evolving needs and providing ongoing support to ensure their continued success.",
+      "AiBik Tech Solutions focuses on building long-term partnerships with our clients, understanding their evolving needs and providing ongoing support to ensure their continued success.",
   },
   {
     icon: <IoMdCheckmarkCircleOutline size={30} />,
@@ -121,7 +121,7 @@ export const futureGoals = [
     icon: <IoMdGlobe size={30} />,
     title: "Expand Global Reach",
     description:
-      "Codexa aims to expand our global presence, serving clients across different continents while maintaining our commitment to personalized service and local market understanding.",
+      "AiBik Tech Solutions aims to expand our global presence, serving clients across different continents while maintaining our commitment to personalized service and local market understanding.",
   },
   {
     icon: <LuBrainCircuit size={30} />,
@@ -182,7 +182,7 @@ export const healthcareWebSolutions = [
     <div>
       <p class="mb-8">
        <span class="text4 text-primary1">1. Customized Websites for Your Unique Needs : </span>
-        From patient engagement to operational efficiency, Codexa develops healthcare websites that transform how you deliver care. Types of websites we offer include:
+        From patient engagement to operational efficiency, AiBik Tech Solutions develops healthcare websites that transform how you deliver care. Types of websites we offer include:
       </p>
       
       <div class="space-y-6">        
@@ -340,7 +340,7 @@ export const healthcareWebSolutions = [
   <p class="mb-8">
     <span class="text4 text-primary1">5. Revolutionize Patient Care with Apps</span>
     <br />
-    Why Invest in Healthcare Apps? Mobile apps provide a transformative platform for engaging patients, streamlining operations, and enhancing care delivery. By aligning with your specifications, Codexa ensures tailored apps that meet the dynamic needs of modern healthcare.
+    Why Invest in Healthcare Apps? Mobile apps provide a transformative platform for engaging patients, streamlining operations, and enhancing care delivery. By aligning with your specifications, AiBik Tech Solutions ensures tailored apps that meet the dynamic needs of modern healthcare.
   </p>
 
   <div class="space-y-6">
@@ -402,7 +402,7 @@ export const healthcareWebSolutions = [
   <p class="mb-8">
     <span class="text4 text-primary1">7. Data Science Services: Unlocking Insights for Smarter Healthcare</span>
     <br />
-    Data holds the power to transform healthcare, but unlocking its potential requires advanced tools and expertise. Codexa offers data science services designed to improve patient outcomes, streamline operations, and enable informed decision-making.
+    Data holds the power to transform healthcare, but unlocking its potential requires advanced tools and expertise. AiBik Tech Solutions offers data science services designed to improve patient outcomes, streamline operations, and enable informed decision-making.
   </p>
 
   <div class="space-y-6">
@@ -433,7 +433,7 @@ export const healthcareWebSolutions = [
   <p class="mb-8">
     <span class="text4 text-primary1">8. Custom Software for Healthcare Excellence</span>
     <br />
-    Tailored Technology to Meet Complex Needs Generic software often fails to address healthcare-specific challenges. Codexa’s custom software solutions bridge the gap by delivering:
+    Tailored Technology to Meet Complex Needs Generic software often fails to address healthcare-specific challenges. AiBik Tech Solutions’s custom software solutions bridge the gap by delivering:
   </p>
 
   <div class="space-y-6">

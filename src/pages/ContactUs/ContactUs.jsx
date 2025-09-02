@@ -33,12 +33,12 @@ const ContactUs = () => {
   const contactStructuredData = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
-    "name": "Contact Codexa - Get in Touch for Digital Innovation Solutions",
-    "description": "Contact Codexa for expert web development, mobile apps, AI solutions, and digital transformation services. Get in touch with our team of technology experts.",
-    "url": "https://codexa.com/contact-us",
+    "name": "Contact AiBik Tech Solutions - Get in Touch for Digital Innovation Solutions",
+    "description": "Contact AiBik Tech Solutions for expert web development, mobile apps, AI solutions, and digital transformation services. Get in touch with our team of technology experts.",
+    "url": "https://AiBikTechSolutions.com/contact-us",
     "mainEntity": {
       "@type": "Organization",
-      "name": "Codexa",
+      "name": "AiBik Tech Solutions",
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": `+91-${companyDetails.phone}`,
@@ -67,13 +67,13 @@ const ContactUs = () => {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://codexa.com"
+          "item": "https://AiBikTechSolutions.com"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Contact Us",
-          "item": "https://codexa.com/contact-us"
+          "item": "https://AiBikTechSolutions.com/contact-us"
         }
       ]
     }
@@ -98,7 +98,7 @@ const ContactUs = () => {
 
       const data = {
         body,
-        name: "Codexa",
+        name: "AiBik Tech Solutions",
         subject: values.subject,
         to: companyDetails.email,
       };
@@ -125,10 +125,10 @@ const ContactUs = () => {
   return (
     <>
       <SEO 
-        title="Contact Codexa - Get in Touch for Digital Innovation Solutions"
-        description="Contact Codexa for expert web development, mobile apps, AI solutions, and digital transformation services. Get in touch with our team of technology experts."
-        keywords="contact Codexa, web development contact, mobile app development contact, AI solutions contact, digital transformation contact, technology consulting contact"
-        url="https://codexa.com/contact-us"
+        title="Contact AiBik Tech Solutions - Get in Touch for Digital Innovation Solutions"
+        description="Contact AiBik Tech Solutions for expert web development, mobile apps, AI solutions, and digital transformation services. Get in touch with our team of technology experts."
+        keywords="contact AiBik Tech Solutions, web development contact, mobile app development contact, AI solutions contact, digital transformation contact, technology consulting contact"
+        url="https://AiBikTechSolutions.com/contact-us"
         structuredData={contactStructuredData}
       />
       
@@ -137,7 +137,7 @@ const ContactUs = () => {
         <img
           src={banner}
           className="object-cover w-full h-full absolute inset-0 z-[-2]"
-          alt="Contact Codexa - Get in Touch for Digital Innovation Solutions"
+          alt="Contact AiBik Tech Solutions - Get in Touch for Digital Innovation Solutions"
         />
         <div className="wrapper flex h-full py-[6rem] md:pt-[8rem] pb-16 items-end">
           <h1 data-aos="fade-right" className="text_xl text-white">

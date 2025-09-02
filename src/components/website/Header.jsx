@@ -8,7 +8,7 @@ import { IoClose } from "react-icons/io5";
 // Website links
 export const websiteLinks = [
   { id: 1, title: "Home", url: "/" },
-  { id: 2, title: "About Codexa", url: "/about-us" },
+  { id: 2, title: "About AiBik Tech Solutions", url: "/about-us" },
   { id: 3, title: "Services", url: "/services" },
   { id: 5, title: "Blogs", url: "/blogs" },
   { id: 6, title: "Contact", url: "/contact-us" },

@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://codexa.com/sitemap.xml
+Sitemap: https://AiBikTechSolutions.com/sitemap.xml
 
 # Disallow admin or private areas (if any)
 Disallow: /admin/

@@ -14,7 +14,7 @@ const Blogs = () => {
         />
         <div className="wrapper flex h-full py-[6rem] md:pt-[8rem] pb-16 items-end">
           <h1 data-aos="fade-right" className="text_xl text-white">
-            Codexa Insights & Innovation
+            AiBik Tech Solutions Insights & Innovation
           </h1>
         </div>
       </section>

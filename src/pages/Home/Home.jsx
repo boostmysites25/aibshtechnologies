@@ -30,15 +30,15 @@ export default function Home() {
   const homeStructuredData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Codexa - Leading Web Development, Mobile Apps, AI Solutions & Digital Innovation",
-    "description": "Codexa transforms businesses with cutting-edge web development, mobile apps, AI solutions, data science, and custom software. Expert digital innovation partner for modern businesses.",
-    "url": "https://codexa.com",
+    "name": "AiBik Tech Solutions - Leading Web Development, Mobile Apps, AI Solutions & Digital Innovation",
+    "description": "AiBik Tech Solutions transforms businesses with cutting-edge web development, mobile apps, AI solutions, data science, and custom software. Expert digital innovation partner for modern businesses.",
+    "url": "https://AiBikTechSolutions.com",
     "mainEntity": {
       "@type": "Organization",
-      "name": "Codexa",
+      "name": "AiBik Tech Solutions",
       "description": "Leading technology company specializing in digital transformation and innovative software solutions",
-      "url": "https://codexa.com",
-      "logo": "https://codexa.com/logo.png",
+      "url": "https://AiBikTechSolutions.com",
+      "logo": "https://AiBikTechSolutions.com/logo.png",
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": "+91-8018705115",
@@ -61,7 +61,7 @@ export default function Home() {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://codexa.com"
+          "item": "https://AiBikTechSolutions.com"
         }
       ]
     }
@@ -70,10 +70,10 @@ export default function Home() {
   return (
     <>
       <SEO 
-        title="Codexa - Leading Web Development, Mobile Apps, AI Solutions & Digital Innovation"
-        description="Codexa transforms businesses with cutting-edge web development, mobile apps, AI solutions, data science, and custom software. Expert digital innovation partner for modern businesses."
+        title="AiBik Tech Solutions - Leading Web Development, Mobile Apps, AI Solutions & Digital Innovation"
+        description="AiBik Tech Solutions transforms businesses with cutting-edge web development, mobile apps, AI solutions, data science, and custom software. Expert digital innovation partner for modern businesses."
         keywords="web development, mobile app development, AI solutions, data science, custom software, digital transformation, technology consulting, React development, iOS apps, Android apps, machine learning, artificial intelligence, e-commerce solutions, healthcare technology, fintech solutions"
-        url="https://codexa.com"
+        url="https://AiBikTechSolutions.com"
         structuredData={homeStructuredData}
       />
       
@@ -84,13 +84,13 @@ export default function Home() {
             className="space-y-3 relative z-10 py-[6rem]"
           >
             <h1 className="text1 font-montserrat max-w-[60rem]">
-              Codexa: Where Your Ideas Shape <br />
+              AiBik Tech Solutions: Where Your Ideas Shape <br />
               <span className="text-primary font-montserrat">
                 Tomorrow's Technology
               </span>
             </h1>
             <p className="desc max-w-2xl pb-3">
-              At <span className="font-bold">Codexa</span>, we're more than just a tech company — we're your innovation partner. With expertise spanning web development, mobile apps, AI solutions, data science, and custom software, we transform your vision into powerful digital solutions that drive real business impact.
+              At <span className="font-bold">AiBik Tech Solutions</span>, we're more than just a tech company — we're your innovation partner. With expertise spanning web development, mobile apps, AI solutions, data science, and custom software, we transform your vision into powerful digital solutions that drive real business impact.
             </p>
             <Button to="/contact-us">Get Started</Button>
           </div>
@@ -104,7 +104,7 @@ export default function Home() {
              ${robot} 600w,
              ${robot} 1200w`}
               sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
-              alt="AI Robot representing Codexa's innovative technology solutions"
+              alt="AI Robot representing AiBik Tech Solutions's innovative technology solutions"
               width="600"
               height="400"
               className="h-[32vh] lg:h-[40vh] w-fit object-contain"
@@ -117,12 +117,12 @@ export default function Home() {
           <div data-aos="fade-right" className="space-y-5 py-4">
             <h2 className="text2">
               <span className="text-primary1">Innovation</span> Meets
-              Execution at Codexa
+              Execution at AiBik Tech Solutions
             </h2>
             <p className="desc hyphens-auto">
-              At Codexa, we believe that every great innovation starts with a bold idea. We're a team of passionate technologists, designers, and strategists who transform your vision into cutting-edge digital solutions that drive real business results. <br />
+              At AiBik Tech Solutions, we believe that every great innovation starts with a bold idea. We're a team of passionate technologists, designers, and strategists who transform your vision into cutting-edge digital solutions that drive real business results. <br />
               Our comprehensive expertise covers the full spectrum of modern technology: from responsive web applications and native mobile apps to AI-powered automation, data analytics, and immersive gaming experiences. We specialize in creating scalable, secure, and user-centric solutions that adapt to your evolving business needs. <br />
-              What sets Codexa apart is our collaborative approach. We work closely with you to understand your unique challenges, market position, and growth objectives. This deep partnership enables us to deliver not just technology, but strategic solutions that position your business for success in the digital age.
+              What sets AiBik Tech Solutions apart is our collaborative approach. We work closely with you to understand your unique challenges, market position, and growth objectives. This deep partnership enables us to deliver not just technology, but strategic solutions that position your business for success in the digital age.
             </p>
             <div className="flex gap-10 pt-4">
               <Link
@@ -146,7 +146,7 @@ export default function Home() {
               src={aboutImg}
               width={500}
               height={600}
-              alt="Codexa innovation and technology expertise"
+              alt="AiBik Tech Solutions innovation and technology expertise"
               className="max-w-[20rem] md:max-w-max mx-auto w-full h-full object-cover aspect-square"
             />
           </div>

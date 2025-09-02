@@ -45,7 +45,7 @@ const ContactForm2 = ({ isDark }) => {
 
       const data = {
         body,
-        name: "Codexa",
+        name: "AiBik Tech Solutions",
         subject: values.subject,
         to: companyDetails.email,
       };

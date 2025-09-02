@@ -100,7 +100,7 @@ const ServicesSection = () => {
             <br />
           </h2>
           <p>
-            At Codexa, every project begins with understanding your unique vision and business objectives. We don't believe in generic solutions — we create custom, intelligent, and scalable digital products that are perfectly aligned with your goals. From concept to deployment, we ensure every solution is built to perform, adapt, and grow with your business.
+            At AiBik Tech Solutions, every project begins with understanding your unique vision and business objectives. We don't believe in generic solutions — we create custom, intelligent, and scalable digital products that are perfectly aligned with your goals. From concept to deployment, we ensure every solution is built to perform, adapt, and grow with your business.
           </p>
           <div data-aos="fade-right" className="flex gap-5 z-[2] relative">
             <button

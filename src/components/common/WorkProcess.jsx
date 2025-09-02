@@ -56,7 +56,7 @@ const WorkProcess = () => {
          
           className="desc text-center max-w-4xl mx-auto text-[#FEFEFE]"
         >
-          At Codexa, we follow a proven methodology that transforms your ideas into powerful digital solutions. Our collaborative approach ensures transparency, quality, and measurable results at every stage of development.
+          At AiBik Tech Solutions, we follow a proven methodology that transforms your ideas into powerful digital solutions. Our collaborative approach ensures transparency, quality, and measurable results at every stage of development.
         </p>
         <div className="pt-5 flex flex-wrap justify-center gap-5 sm:gap-7 max-w-5xl mx-auto">
           {workProcess.map((item) => (

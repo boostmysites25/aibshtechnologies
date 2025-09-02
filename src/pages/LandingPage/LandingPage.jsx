@@ -31,16 +31,16 @@ export default function LandingPage({ page }) {
   // SEO data for landing pages
   const seoData = {
     web: {
-      title: "Web Development Services - Custom Websites & Web Applications | Codexa",
-      description: "Elevate your business with cutting-edge web solutions. Codexa creates custom-built websites and web applications designed to deliver exceptional user experiences and drive business growth.",
+      title: "Web Development Services - Custom Websites & Web Applications | AiBik Tech Solutions",
+      description: "Elevate your business with cutting-edge web solutions. AiBik Tech Solutions creates custom-built websites and web applications designed to deliver exceptional user experiences and drive business growth.",
       keywords: "web development, custom websites, web applications, responsive design, e-commerce websites, React development, frontend development, backend development, full-stack development",
-      url: "https://codexa.com/web-development"
+      url: "https://AiBikTechSolutions.com/web-development"
     },
     app: {
-      title: "Mobile App Development - iOS & Android Apps | Codexa",
-      description: "Transform your business with next-generation mobile apps. Codexa crafts custom-built mobile applications for iOS, Android, and cross-platform environments that drive engagement and growth.",
+      title: "Mobile App Development - iOS & Android Apps | AiBik Tech Solutions",
+      description: "Transform your business with next-generation mobile apps. AiBik Tech Solutions crafts custom-built mobile applications for iOS, Android, and cross-platform environments that drive engagement and growth.",
       keywords: "mobile app development, iOS app development, Android app development, cross-platform apps, React Native, Flutter, mobile applications, app design, mobile development",
-      url: "https://codexa.com/app-development"
+      url: "https://AiBikTechSolutions.com/app-development"
     }
   };
 
@@ -55,8 +55,8 @@ export default function LandingPage({ page }) {
     "url": seoData[isWeb ? 'web' : 'app'].url,
     "provider": {
       "@type": "Organization",
-      "name": "Codexa",
-      "url": "https://codexa.com"
+      "name": "AiBik Tech Solutions",
+      "url": "https://AiBikTechSolutions.com"
     },
     "serviceType": isWeb ? "Web Development" : "Mobile App Development",
     "areaServed": {
@@ -70,7 +70,7 @@ export default function LandingPage({ page }) {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://codexa.com"
+          "item": "https://AiBikTechSolutions.com"
         },
         {
           "@type": "ListItem",
@@ -132,8 +132,8 @@ export default function LandingPage({ page }) {
             )}
             <p className="desc max-w-2xl pb-3">
               {isWeb
-                ? "Your website is the digital face of your business. It deserves to be innovative, user-friendly, and aligned with the latest trends. At Codexa, we create custom-built web solutions designed to deliver exceptional user experiences, seamless functionality, and business growth."
-                : "Your business deserves a mobile app that not only meets today's needs but is ready for the challenges of tomorrow. At Codexa, we craft custom-built mobile applications that deliver seamless user experiences, drive engagement, and accelerate growth across iOS, Android, and cross-platform environments."}
+                ? "Your website is the digital face of your business. It deserves to be innovative, user-friendly, and aligned with the latest trends. At AiBik Tech Solutions, we create custom-built web solutions designed to deliver exceptional user experiences, seamless functionality, and business growth."
+                : "Your business deserves a mobile app that not only meets today's needs but is ready for the challenges of tomorrow. At AiBik Tech Solutions, we craft custom-built mobile applications that deliver seamless user experiences, drive engagement, and accelerate growth across iOS, Android, and cross-platform environments."}
             </p>
             <Button scrollTo="contact" offset={100}>
               Get Started
@@ -160,7 +160,7 @@ export default function LandingPage({ page }) {
              ${robot} 600w,
              ${robot} 1200w`}
               sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
-              alt={isWeb ? "AI Robot representing Codexa's web development solutions" : "AI Robot representing Codexa's mobile app development solutions"}
+              alt={isWeb ? "AI Robot representing AiBik Tech Solutions's web development solutions" : "AI Robot representing AiBik Tech Solutions's mobile app development solutions"}
               width="600"
               height="400"
               className="h-[32vh] lg:h-[40vh] w-fit object-contain"
@@ -174,7 +174,7 @@ export default function LandingPage({ page }) {
             <h3 className="text2">
               Welcome to{" "}
               <span className="text-primary1">
-                Codexa {isWeb ? "Web" : "App"} Solutions
+                AiBik Tech Solutions {isWeb ? "Web" : "App"} Solutions
               </span>
             </h3>
             <h3 className="text2">
@@ -189,7 +189,7 @@ export default function LandingPage({ page }) {
               className="desc hyphens-auto w-full"
               dangerouslySetInnerHTML={{
                 __html: isWeb
-                  ? `At Codexa, we specialize in building high-performance,
+                  ? `At AiBik Tech Solutions, we specialize in building high-performance,
               scalable, and visually stunning websites that drive business
               growth. Our team of experts transforms your ideas into powerful
               digital experiences, ensuring a strong online presence for your
@@ -202,7 +202,7 @@ export default function LandingPage({ page }) {
               requirements, we craft web solutions that enhance engagement,
               boost conversions, and ensure long-term success in the digital
               landscape.`
-                  : `At Codexa, we specialize in building high-performance, scalable, and 
+                  : `At AiBik Tech Solutions, we specialize in building high-performance, scalable, and 
     user-friendly mobile and web applications that bring your vision to life. 
     Whether you need a native mobile app, cross-platform solution, or a custom 
     web application, we leverage the latest technologies to create seamless 
@@ -215,7 +215,7 @@ export default function LandingPage({ page }) {
               }}
             ></p>
             <h5 className="text4">
-              <span className="text-[#FFD63C]">Codexa:</span>{" "}
+              <span className="text-[#FFD63C]">AiBik Tech Solutions:</span>{" "}
               {isWeb
                 ? "Empowering Your Web Presence with Innovation."
                 : "Crafting the Future of Mobile Apps."}
