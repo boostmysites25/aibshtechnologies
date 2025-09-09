@@ -1,13 +1,11 @@
 // Import images
+import logo from "../assets/logo.PNG";
 import circleImg from "../assets/images/circle.png";
 import moonShapeImg from "../assets/images/yellow-moon-shape.png";
 import { IoChatbubblesOutline, IoDiamondOutline } from "react-icons/io5";
 import { RiTeamLine } from "react-icons/ri";
 import { IoMdCheckmarkCircleOutline, IoMdGlobe } from "react-icons/io";
 import { LuBrainCircuit } from "react-icons/lu";
-
-// Use logo from public folder
-const logo = "/logo.PNG";
 
 // Define companyDetails first to avoid initialization issues
 export const companyDetails = {
