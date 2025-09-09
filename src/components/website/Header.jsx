@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Divide as Hamburger } from "hamburger-react";
-import { companyDetails, logo } from "../../content/constant";
+import { logo } from "../../content/constant";
 import Drawer from "react-modern-drawer";
 import { Link, useLocation } from "react-router-dom";
 import { IoClose } from "react-icons/io5";
@@ -8,7 +8,7 @@ import { IoClose } from "react-icons/io5";
 // Website links
 export const websiteLinks = [
   { id: 1, title: "Home", url: "/" },
-  { id: 2, title: "About AiBik Tech Solutions", url: "/about-us" },
+  { id: 2, title: "About AIBSH TECHNOLOGIES PVT LTD", url: "/about-us" },
   { id: 3, title: "Services", url: "/services" },
   { id: 5, title: "Blogs", url: "/blogs" },
   { id: 6, title: "Contact", url: "/contact-us" },
@@ -27,7 +27,7 @@ const Header = () => {
           <a data-aos="fade-down" href="/" className="flex items-center gap-2">
             <img
               src={logo}
-              alt="logo"
+              alt="AIBSH TECHNOLOGIES Logo"
               width={150}
               height={38}
               className="w-[8rem] sm:w-[10rem]"

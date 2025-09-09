@@ -1,9 +1,9 @@
-# AiBik Tech Solutions - Digital Innovation & Technology Solutions
+# AIBSH TECHNOLOGIES PVT LTD - Digital Innovation & Technology Solutions
 
 
 ## Overview
 
-AiBik Tech Solutions is a leading technology company specializing in comprehensive digital solutions including web development, mobile applications, AI solutions, data science, custom software development, game development, and UI/UX design. Our mission is to transform businesses through innovative technology solutions and strategic digital partnerships.
+AIBSH TECHNOLOGIES PVT LTD is a leading technology company specializing in comprehensive digital solutions including web development, mobile applications, AI solutions, data science, custom software development, game development, and UI/UX design. Our mission is to transform businesses through innovative technology solutions and strategic digital partnerships.
 
 ## 🌟 Key Features
 
@@ -75,8 +75,8 @@ src/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/AiBik Tech Solutions-website.git
-cd AiBik Tech Solutions-website
+git clone https://github.com/your-username/AIBSH TECHNOLOGIES PVT LTD-website.git
+cd AIBSH TECHNOLOGIES PVT LTD-website
 ```
 
 2. Install dependencies:
@@ -178,7 +178,7 @@ The website is optimized for deployment on:
 
 ## 📄 License
 
-This project is proprietary software owned by AiBik Tech Solutions.
+This project is proprietary software owned by AIBSH TECHNOLOGIES PVT LTD.
 
 ## 🤝 Contributing
 
@@ -186,4 +186,4 @@ For internal development and contributions, please follow the established coding
 
 ---
 
-**AiBik Tech Solutions** - Transforming businesses through innovative technology solutions.
+**AIBSH TECHNOLOGIES PVT LTD** - Transforming businesses through innovative technology solutions.

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Divide as Hamburger } from "hamburger-react";
-import { companyDetails, logo } from "../../content/constant";
+import { logo } from "../../content/constant";
 import Drawer from "react-modern-drawer";
 import { Link, useLocation } from "react-router-dom";
 import { Link as Scroll } from "react-scroll";
@@ -28,7 +28,7 @@ const Header = () => {
           <a data-aos="fade-down" href="/" className="flex items-center gap-2">
             <img
               src={logo}
-              alt="logo"
+              alt="AIBSH TECHNOLOGIES Logo"
               width={150}
               height={38}
               className="w-[8rem] sm:w-[10rem]"
