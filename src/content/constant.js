@@ -9,7 +9,7 @@ import { LuBrainCircuit } from "react-icons/lu";
 export { logo, circleImg, moonShapeImg };
 
 export const companyDetails = {
-  email: "abc@example.com",
+  email: "info@aibshtechnologies.in",
   location: "226, Saraswati lane, Aravindo nagar, Pandra Square, Bhuvaneswar, Khorda, 751010",
   phone: "8018705115",
   whatsapp: "https://wa.me/918018705115",
