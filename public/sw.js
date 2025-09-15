@@ -1,4 +1,4 @@
-const CACHE_NAME = 'AiBik Tech Solutions-v1';
+const CACHE_NAME = 'AIBSH TECHNOLOGIES PVT LTD-v1';
 const urlsToCache = [
   '/',
   '/static/js/bundle.js',

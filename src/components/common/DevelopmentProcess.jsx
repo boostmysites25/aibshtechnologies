@@ -16,7 +16,7 @@ const DevelopmentProcess = ({ content }) => {
           Our Development Process
         </h2>
         <p data-aos="fade-up" className="desc max-w-4xl mx-auto">
-          At AiBik Tech Solutions, our development approach ensures precision, efficiency,
+          At AIBSH TECHNOLOGIES PVT LTD, our development approach ensures precision, efficiency,
           and innovation at every stage. Our process is structured to bring your
           vision to life with a streamlined workflow:
         </p>

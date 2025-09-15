@@ -33,7 +33,7 @@ const ServiceDetails = () => {
     "url": `https://AiBikTechSolutions.com/services/${param}`,
     "provider": {
       "@type": "Organization",
-      "name": "AiBik Tech Solutions",
+      "name": "AIBSH TECHNOLOGIES PVT LTD",
       "url": "https://AiBikTechSolutions.com"
     },
     "serviceType": title,
@@ -81,9 +81,9 @@ const ServiceDetails = () => {
   return (
     <>
       <SEO 
-        title={`${title} - ${subHeading} | AiBik Tech Solutions`}
+        title={`${title} - ${subHeading} | AIBSH TECHNOLOGIES PVT LTD`}
         description={desc}
-        keywords={`${title.toLowerCase()}, ${title.toLowerCase()} services, ${title.toLowerCase()} development, digital solutions, technology services, AiBik Tech Solutions ${title.toLowerCase()}`}
+        keywords={`${title.toLowerCase()}, ${title.toLowerCase()} services, ${title.toLowerCase()} development, digital solutions, technology services, AIBSH TECHNOLOGIES PVT LTD ${title.toLowerCase()}`}
         url={`https://AiBikTechSolutions.com/services/${param}`}
         structuredData={serviceStructuredData}
       />

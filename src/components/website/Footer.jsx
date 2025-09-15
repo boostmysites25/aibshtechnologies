@@ -17,7 +17,11 @@ const Footer = () => {
     <div className="bg-white/10 py-12">
       <div className="wrapper flex md:flex-row flex-col flex-wrap justify-between gap-10 md:gap-7">
         <div className="flex flex-col md:items-center gap-3">
-          <img src={logo} alt="Logo" className="w-[14rem] object-contain" />
+          <img
+            src={logo}
+            alt="AIBSH TECHNOLOGIES Logo"
+            className="w-[14rem] object-contain"
+          />
           <div className="flex gap-3">
             <Link
               to={companyDetails.linkedin}

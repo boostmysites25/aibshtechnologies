@@ -12,7 +12,7 @@ const Services = () => {
   const servicesStructuredData = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "AiBik Tech Solutions Digital Services",
+    "name": "AIBSH TECHNOLOGIES PVT LTD Digital Services",
     "description": "Comprehensive digital services including web development, mobile apps, AI solutions, data science, custom software, game development, and UI/UX design",
     "url": "https://AiBikTechSolutions.com/services",
     "itemListElement": ourServices.map((service, index) => ({
@@ -23,7 +23,7 @@ const Services = () => {
       "url": `https://AiBikTechSolutions.com/services/${createUrlParam(service.title)}`,
       "provider": {
         "@type": "Organization",
-        "name": "AiBik Tech Solutions"
+        "name": "AIBSH TECHNOLOGIES PVT LTD"
       }
     })),
     "breadcrumb": {
@@ -49,7 +49,7 @@ const Services = () => {
     <>
       <SEO 
         title="Our Services - Web Development, Mobile Apps, AI Solutions & Digital Innovation"
-        description="Explore AiBik Tech Solutions's comprehensive digital services including web development, mobile apps, AI solutions, data science, custom software, game development, and UI/UX design."
+        description="Explore AIBSH TECHNOLOGIES PVT LTD's comprehensive digital services including web development, mobile apps, AI solutions, data science, custom software, game development, and UI/UX design."
         keywords="web development services, mobile app development, AI solutions, data science services, custom software development, game development, UI UX design, digital transformation services, technology consulting"
         url="https://AiBikTechSolutions.com/services"
         structuredData={servicesStructuredData}
@@ -60,7 +60,7 @@ const Services = () => {
         <img
           src={banner}
           className="object-cover w-full h-full absolute inset-0 z-[-2]"
-          alt="AiBik Tech Solutions Services Banner - Comprehensive Digital Solutions"
+          alt="AIBSH TECHNOLOGIES PVT LTD Services Banner - Comprehensive Digital Solutions"
         />
         <div className="wrapper flex h-full py-[6rem] md:pt-[8rem] pb-16 items-center justify-start">
           <h1 data-aos="fade-right" className="text_xl">

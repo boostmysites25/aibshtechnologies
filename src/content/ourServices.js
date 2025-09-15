@@ -5,13 +5,13 @@ export const ourServices = [
     title: "Web Development",
     subHeading: "Crafting Digital Experiences That Drive Business Growth",
     image: require("../assets/images/services/web-dev1.jpeg"),
-    desc: "AiBik Tech Solutions transforms your digital vision into powerful, scalable web solutions that not only look stunning but deliver measurable business results. From responsive corporate websites to complex enterprise applications, we build the digital foundation your business needs to thrive in the modern marketplace.",
+    desc: "AIBSH TECHNOLOGIES PVT LTD transforms your digital vision into powerful, scalable web solutions that not only look stunning but deliver measurable business results. From responsive corporate websites to complex enterprise applications, we build the digital foundation your business needs to thrive in the modern marketplace.",
     serviceDetails: {
       banner: require("../assets/images/services/web-dev/banner.jpeg"),
       img1: require("../assets/images/services/web-dev/1.jpeg"),
       img2: require("../assets/images/services/web-dev/2.jpeg"),
       whyChooseContent: {
-        heading: "Why AiBik Tech Solutions Leads in Web Development Excellence",
+        heading: "Why AIBSH TECHNOLOGIES PVT LTD Leads in Web Development Excellence",
         list: [
           {
             title: "Innovation-Driven Architecture",
@@ -154,13 +154,13 @@ export const ourServices = [
     title: "App Development",
     subHeading: "Building Mobile Experiences That Transform User Engagement",
     image: require("../assets/images/services/app-dev1.jpeg"),
-    desc: "AiBik Tech Solutions creates cutting-edge mobile applications that go beyond functionality to deliver exceptional user experiences. From native iOS and Android apps to cross-platform solutions, we build mobile experiences that engage users, drive business growth, and stay ahead of technological trends.",
+    desc: "AIBSH TECHNOLOGIES PVT LTD creates cutting-edge mobile applications that go beyond functionality to deliver exceptional user experiences. From native iOS and Android apps to cross-platform solutions, we build mobile experiences that engage users, drive business growth, and stay ahead of technological trends.",
     serviceDetails: {
       banner: require("../assets/images/services/app-dev/banner.jpeg"),
       img1: require("../assets/images/services/app-dev/1.jpeg"),
       img2: require("../assets/images/services/app-dev/2.jpeg"),
       whyChooseContent: {
-        heading: "Why AiBik Tech Solutions Excels in Mobile App Innovation",
+        heading: "Why AIBSH TECHNOLOGIES PVT LTD Excels in Mobile App Innovation",
         list: [
           {
             title: "Next-Generation Technology Stack",
@@ -318,13 +318,13 @@ export const ourServices = [
     title: "Custom Software Development",
     subHeading: "Tailored Solutions That Solve Your Unique Business Challenges",
     image: require("../assets/images/services/custom-software1.jpeg"),
-    desc: "AiBik Tech Solutions specializes in creating bespoke software solutions that are perfectly aligned with your business processes and objectives. We don't believe in one-size-fits-all—we build custom software that addresses your specific challenges, streamlines operations, and drives measurable business outcomes.",
+    desc: "AIBSH TECHNOLOGIES PVT LTD specializes in creating bespoke software solutions that are perfectly aligned with your business processes and objectives. We don't believe in one-size-fits-all—we build custom software that addresses your specific challenges, streamlines operations, and drives measurable business outcomes.",
     serviceDetails: {
       banner: require("../assets/images/services/custom-software/banner.jpeg"),
       img1: require("../assets/images/services/custom-software/1.jpeg"),
       img2: require("../assets/images/services/custom-software/2.png"),
       whyChooseContent: {
-        heading: "Why AiBik Tech Solutions Delivers Exceptional Custom Software Solutions",
+        heading: "Why AIBSH TECHNOLOGIES PVT LTD Delivers Exceptional Custom Software Solutions",
         list: [
           {
             title: "Business-Centric Development Approach",
@@ -461,13 +461,13 @@ export const ourServices = [
     title: "AI Solutions",
     subHeading: "Intelligent Automation That Transforms Business Operations",
     image: require("../assets/images/services/ai1.png"),
-    desc: "AiBik Tech Solutions leverages cutting-edge artificial intelligence to create smart, automated solutions that revolutionize how your business operates. From intelligent chatbots to predictive analytics, we build AI systems that learn, adapt, and deliver measurable business value.",
+    desc: "AIBSH TECHNOLOGIES PVT LTD leverages cutting-edge artificial intelligence to create smart, automated solutions that revolutionize how your business operates. From intelligent chatbots to predictive analytics, we build AI systems that learn, adapt, and deliver measurable business value.",
     serviceDetails: {
       banner: require("../assets/images/services/ai/banner.jpeg"),
       img1: require("../assets/images/services/ai/1.png"),
       img2: require("../assets/images/services/ai/2.jpeg"),
       whyChooseContent: {
-        heading: "Why AiBik Tech Solutions Leads in AI Innovation",
+        heading: "Why AIBSH TECHNOLOGIES PVT LTD Leads in AI Innovation",
         list: [
           {
             title: "Custom AI Strategy Development",
@@ -619,13 +619,13 @@ export const ourServices = [
     title: "Data Science & Analytics",
     subHeading: "Transforming Data into Strategic Business Intelligence",
     image: require("../assets/images/services/data-science1.jpeg"),
-    desc: "AiBik Tech Solutions transforms your raw data into powerful business intelligence that drives strategic decision-making. We combine advanced analytics, machine learning, and data visualization to uncover insights that give you a competitive advantage and enable data-driven growth.",
+    desc: "AIBSH TECHNOLOGIES PVT LTD transforms your raw data into powerful business intelligence that drives strategic decision-making. We combine advanced analytics, machine learning, and data visualization to uncover insights that give you a competitive advantage and enable data-driven growth.",
     serviceDetails: {
       banner: require("../assets/images/services/data-science/banner.jpeg"),
       img1: require("../assets/images/services/data-science/1.png"),
       img2: require("../assets/images/services/data-science/2.jpeg"),
       whyChooseContent: {
-        heading: "Why AiBik Tech Solutions Excels in Data Science & Analytics",
+        heading: "Why AIBSH TECHNOLOGIES PVT LTD Excels in Data Science & Analytics",
         list: [
           {
             title: "Strategic Data Intelligence",
@@ -781,13 +781,13 @@ export const ourServices = [
     title: "Game Development",
     subHeading: "Creating Immersive Gaming Experiences That Captivate Audiences",
     image: require("../assets/images/services/game-dev1.jpeg"),
-    desc: "AiBik Tech Solutions brings your gaming vision to life with cutting-edge technology and creative excellence. From mobile games to AAA titles, we develop immersive gaming experiences that engage players, drive user retention, and deliver exceptional entertainment value across all platforms.",
+    desc: "AIBSH TECHNOLOGIES PVT LTD brings your gaming vision to life with cutting-edge technology and creative excellence. From mobile games to AAA titles, we develop immersive gaming experiences that engage players, drive user retention, and deliver exceptional entertainment value across all platforms.",
     serviceDetails: {
       banner: require("../assets/images/services/game-dev/banner.jpeg"),
       img1: require("../assets/images/services/game-dev/1.jpeg"),
       img2: require("../assets/images/services/game-dev/2.jpeg"),
       whyChooseContent: {
-        heading: "Why AiBik Tech Solutions Leads in Game Development Innovation",
+        heading: "Why AIBSH TECHNOLOGIES PVT LTD Leads in Game Development Innovation",
         list: [
           {
             title: "Cutting-Edge Game Engine Expertise",
@@ -926,13 +926,13 @@ export const ourServices = [
     title: "UI/UX Design",
     subHeading: "Crafting User Experiences That Drive Engagement and Conversion",
     image: require("../assets/images/services/uiux1.jpeg"),
-    desc: "AiBik Tech Solutions creates exceptional user experiences that go beyond aesthetics to deliver meaningful interactions and measurable business results. We design intuitive, accessible, and engaging interfaces that connect with your users and drive your business objectives.",
+    desc: "AIBSH TECHNOLOGIES PVT LTD creates exceptional user experiences that go beyond aesthetics to deliver meaningful interactions and measurable business results. We design intuitive, accessible, and engaging interfaces that connect with your users and drive your business objectives.",
     serviceDetails: {
       banner: require("../assets/images/services/uiux/banner.jpeg"),
       img1: require("../assets/images/services/uiux/1.jpeg"),
       img2: require("../assets/images/services/uiux/2.jpeg"),
       whyChooseContent: {
-        heading: "Why AiBik Tech Solutions Excels in UI/UX Design Excellence",
+        heading: "Why AIBSH TECHNOLOGIES PVT LTD Excels in UI/UX Design Excellence",
         list: [
           {
             title: "User-Centric Design Philosophy",

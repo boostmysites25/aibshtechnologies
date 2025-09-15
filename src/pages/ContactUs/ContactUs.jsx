@@ -33,12 +33,12 @@ const ContactUs = () => {
   const contactStructuredData = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
-    "name": "Contact AiBik Tech Solutions - Get in Touch for Digital Innovation Solutions",
-    "description": "Contact AiBik Tech Solutions for expert web development, mobile apps, AI solutions, and digital transformation services. Get in touch with our team of technology experts.",
+    "name": "Contact AIBSH TECHNOLOGIES PVT LTD - Get in Touch for Digital Innovation Solutions",
+    "description": "Contact AIBSH TECHNOLOGIES PVT LTD for expert web development, mobile apps, AI solutions, and digital transformation services. Get in touch with our team of technology experts.",
     "url": "https://AiBikTechSolutions.com/contact-us",
     "mainEntity": {
       "@type": "Organization",
-      "name": "AiBik Tech Solutions",
+      "name": "AIBSH TECHNOLOGIES PVT LTD",
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": `+91-${companyDetails.phone}`,
@@ -98,7 +98,7 @@ const ContactUs = () => {
 
       const data = {
         body,
-        name: "AiBik Tech Solutions",
+        name: "AIBSH TECHNOLOGIES PVT LTD",
         subject: values.subject,
         to: companyDetails.email,
       };
@@ -125,9 +125,9 @@ const ContactUs = () => {
   return (
     <>
       <SEO 
-        title="Contact AiBik Tech Solutions - Get in Touch for Digital Innovation Solutions"
-        description="Contact AiBik Tech Solutions for expert web development, mobile apps, AI solutions, and digital transformation services. Get in touch with our team of technology experts."
-        keywords="contact AiBik Tech Solutions, web development contact, mobile app development contact, AI solutions contact, digital transformation contact, technology consulting contact"
+        title="Contact AIBSH TECHNOLOGIES PVT LTD - Get in Touch for Digital Innovation Solutions"
+        description="Contact AIBSH TECHNOLOGIES PVT LTD for expert web development, mobile apps, AI solutions, and digital transformation services. Get in touch with our team of technology experts."
+        keywords="contact AIBSH TECHNOLOGIES PVT LTD, web development contact, mobile app development contact, AI solutions contact, digital transformation contact, technology consulting contact"
         url="https://AiBikTechSolutions.com/contact-us"
         structuredData={contactStructuredData}
       />
@@ -137,7 +137,7 @@ const ContactUs = () => {
         <img
           src={banner}
           className="object-cover w-full h-full absolute inset-0 z-[-2]"
-          alt="Contact AiBik Tech Solutions - Get in Touch for Digital Innovation Solutions"
+          alt="Contact AIBSH TECHNOLOGIES PVT LTD - Get in Touch for Digital Innovation Solutions"
         />
         <div className="wrapper flex h-full py-[6rem] md:pt-[8rem] pb-16 items-end">
           <h1 data-aos="fade-right" className="text_xl text-white">
