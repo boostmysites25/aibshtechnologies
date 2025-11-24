@@ -13,7 +13,7 @@ const SEO = ({
   nofollow = false
 }) => {
   const location = useLocation();
-  const baseUrl = "https://AiBikTechSolutions.com";
+  const baseUrl = "https://aibshtechnologies.in";
   
   const defaultTitle = "AIBSH TECHNOLOGIES PVT LTD - Leading Web Development, Mobile Apps, AI Solutions & Digital Innovation";
   const defaultDescription = "AIBSH TECHNOLOGIES PVT LTD transforms businesses with cutting-edge web development, mobile apps, AI solutions, data science, and custom software. Expert digital innovation partner for modern businesses.";

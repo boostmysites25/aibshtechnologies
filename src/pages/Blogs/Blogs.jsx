@@ -10,13 +10,13 @@ const Blogs = () => {
     "@type": "Blog",
     "name": "AIBSH TECHNOLOGIES PVT LTD Insights & Innovation Blog",
     "description": "Stay updated with the latest insights, trends, and innovations in web development, mobile apps, AI solutions, and digital transformation from AIBSH TECHNOLOGIES PVT LTD.",
-    "url": "https://AiBikTechSolutions.com/blogs",
+    "url": "https://aibshtechnologies.in/blogs",
     "publisher": {
       "@type": "Organization",
       "name": "AIBSH TECHNOLOGIES PVT LTD",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://AiBikTechSolutions.com/logo.png"
+        "url": "https://aibshtechnologies.in/logo.png"
       }
     },
     "breadcrumb": {
@@ -26,13 +26,13 @@ const Blogs = () => {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://AiBikTechSolutions.com"
+          "item": "https://aibshtechnologies.in"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Blogs",
-          "item": "https://AiBikTechSolutions.com/blogs"
+          "item": "https://aibshtechnologies.in/blogs"
         }
       ]
     }
@@ -44,7 +44,7 @@ const Blogs = () => {
         title="AIBSH TECHNOLOGIES PVT LTD Insights & Innovation Blog - Latest Tech Trends & Updates"
         description="Stay updated with the latest insights, trends, and innovations in web development, mobile apps, AI solutions, and digital transformation from AIBSH TECHNOLOGIES PVT LTD."
         keywords="technology blog, web development blog, mobile app development blog, AI solutions blog, digital transformation insights, tech trends, software development blog, technology news"
-        url="https://AiBikTechSolutions.com/blogs"
+        url="https://aibshtechnologies.in/blogs"
         structuredData={blogsStructuredData}
       />
       <section className="relative w-full aspect-video min-h-[60vh] max-h-[80vh]">

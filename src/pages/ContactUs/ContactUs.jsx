@@ -35,7 +35,7 @@ const ContactUs = () => {
     "@type": "ContactPage",
     "name": "Contact AIBSH TECHNOLOGIES PVT LTD - Get in Touch for Digital Innovation Solutions",
     "description": "Contact AIBSH TECHNOLOGIES PVT LTD for expert web development, mobile apps, AI solutions, and digital transformation services. Get in touch with our team of technology experts.",
-    "url": "https://AiBikTechSolutions.com/contact-us",
+    "url": "https://aibshtechnologies.in/contact-us",
     "mainEntity": {
       "@type": "Organization",
       "name": "AIBSH TECHNOLOGIES PVT LTD",
@@ -67,13 +67,13 @@ const ContactUs = () => {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://AiBikTechSolutions.com"
+          "item": "https://aibshtechnologies.in"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Contact Us",
-          "item": "https://AiBikTechSolutions.com/contact-us"
+          "item": "https://aibshtechnologies.in/contact-us"
         }
       ]
     }
@@ -128,7 +128,7 @@ const ContactUs = () => {
         title="Contact AIBSH TECHNOLOGIES PVT LTD - Get in Touch for Digital Innovation Solutions"
         description="Contact AIBSH TECHNOLOGIES PVT LTD for expert web development, mobile apps, AI solutions, and digital transformation services. Get in touch with our team of technology experts."
         keywords="contact AIBSH TECHNOLOGIES PVT LTD, web development contact, mobile app development contact, AI solutions contact, digital transformation contact, technology consulting contact"
-        url="https://AiBikTechSolutions.com/contact-us"
+        url="https://aibshtechnologies.in/contact-us"
         structuredData={contactStructuredData}
       />
       

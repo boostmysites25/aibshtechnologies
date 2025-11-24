@@ -30,11 +30,11 @@ const ServiceDetails = () => {
     "@type": "Service",
     "name": title,
     "description": desc,
-    "url": `https://AiBikTechSolutions.com/services/${param}`,
+    "url": `https://aibshtechnologies.in/services/${param}`,
     "provider": {
       "@type": "Organization",
       "name": "AIBSH TECHNOLOGIES PVT LTD",
-      "url": "https://AiBikTechSolutions.com"
+      "url": "https://aibshtechnologies.in"
     },
     "serviceType": title,
     "areaServed": {
@@ -60,19 +60,19 @@ const ServiceDetails = () => {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://AiBikTechSolutions.com"
+          "item": "https://aibshtechnologies.in"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Services",
-          "item": "https://AiBikTechSolutions.com/services"
+          "item": "https://aibshtechnologies.in/services"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": title,
-          "item": `https://AiBikTechSolutions.com/services/${param}`
+          "item": `https://aibshtechnologies.in/services/${param}`
         }
       ]
     }
@@ -84,7 +84,7 @@ const ServiceDetails = () => {
         title={`${title} - ${subHeading} | AIBSH TECHNOLOGIES PVT LTD`}
         description={desc}
         keywords={`${title.toLowerCase()}, ${title.toLowerCase()} services, ${title.toLowerCase()} development, digital solutions, technology services, AIBSH TECHNOLOGIES PVT LTD ${title.toLowerCase()}`}
-        url={`https://AiBikTechSolutions.com/services/${param}`}
+        url={`https://aibshtechnologies.in/services/${param}`}
         structuredData={serviceStructuredData}
       />
       

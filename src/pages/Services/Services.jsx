@@ -14,13 +14,13 @@ const Services = () => {
     "@type": "ItemList",
     "name": "AIBSH TECHNOLOGIES PVT LTD Digital Services",
     "description": "Comprehensive digital services including web development, mobile apps, AI solutions, data science, custom software, game development, and UI/UX design",
-    "url": "https://AiBikTechSolutions.com/services",
+    "url": "https://aibshtechnologies.in/services",
     "itemListElement": ourServices.map((service, index) => ({
       "@type": "Service",
       "position": index + 1,
       "name": service.title,
       "description": service.desc,
-      "url": `https://AiBikTechSolutions.com/services/${createUrlParam(service.title)}`,
+      "url": `https://aibshtechnologies.in/services/${createUrlParam(service.title)}`,
       "provider": {
         "@type": "Organization",
         "name": "AIBSH TECHNOLOGIES PVT LTD"
@@ -33,13 +33,13 @@ const Services = () => {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://AiBikTechSolutions.com"
+          "item": "https://aibshtechnologies.in"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Services",
-          "item": "https://AiBikTechSolutions.com/services"
+          "item": "https://aibshtechnologies.in/services"
         }
       ]
     }
@@ -51,7 +51,7 @@ const Services = () => {
         title="Our Services - Web Development, Mobile Apps, AI Solutions & Digital Innovation"
         description="Explore AIBSH TECHNOLOGIES PVT LTD's comprehensive digital services including web development, mobile apps, AI solutions, data science, custom software, game development, and UI/UX design."
         keywords="web development services, mobile app development, AI solutions, data science services, custom software development, game development, UI UX design, digital transformation services, technology consulting"
-        url="https://AiBikTechSolutions.com/services"
+        url="https://aibshtechnologies.in/services"
         structuredData={servicesStructuredData}
       />
       

@@ -34,13 +34,13 @@ export default function LandingPage({ page }) {
       title: "Web Development Services - Custom Websites & Web Applications | AIBSH TECHNOLOGIES PVT LTD",
       description: "Elevate your business with cutting-edge web solutions. AIBSH TECHNOLOGIES PVT LTD creates custom-built websites and web applications designed to deliver exceptional user experiences and drive business growth.",
       keywords: "web development, custom websites, web applications, responsive design, e-commerce websites, React development, frontend development, backend development, full-stack development",
-      url: "https://AiBikTechSolutions.com/web-development"
+      url: "https://aibshtechnologies.in/web-development"
     },
     app: {
       title: "Mobile App Development - iOS & Android Apps | AIBSH TECHNOLOGIES PVT LTD",
       description: "Transform your business with next-generation mobile apps. AIBSH TECHNOLOGIES PVT LTD crafts custom-built mobile applications for iOS, Android, and cross-platform environments that drive engagement and growth.",
       keywords: "mobile app development, iOS app development, Android app development, cross-platform apps, React Native, Flutter, mobile applications, app design, mobile development",
-      url: "https://AiBikTechSolutions.com/app-development"
+      url: "https://aibshtechnologies.in/app-development"
     }
   };
 
@@ -56,7 +56,7 @@ export default function LandingPage({ page }) {
     "provider": {
       "@type": "Organization",
       "name": "AIBSH TECHNOLOGIES PVT LTD",
-      "url": "https://AiBikTechSolutions.com"
+      "url": "https://aibshtechnologies.in"
     },
     "serviceType": isWeb ? "Web Development" : "Mobile App Development",
     "areaServed": {
@@ -70,7 +70,7 @@ export default function LandingPage({ page }) {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://AiBikTechSolutions.com"
+          "item": "https://aibshtechnologies.in"
         },
         {
           "@type": "ListItem",

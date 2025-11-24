@@ -14,7 +14,7 @@ const AboutUs = () => {
     "@type": "AboutPage",
     "name": "About AIBSH TECHNOLOGIES PVT LTD - Our Story, Mission & Digital Innovation Journey",
     "description": "Discover AIBSH TECHNOLOGIES PVT LTD's journey from innovative ideas to technological reality. Learn about our mission to bridge the gap between business challenges and digital transformation solutions.",
-    "url": "https://AiBikTechSolutions.com/about-us",
+    "url": "https://aibshtechnologies.in/about-us",
     "mainEntity": {
       "@type": "Organization",
       "name": "AIBSH TECHNOLOGIES PVT LTD",
@@ -37,13 +37,13 @@ const AboutUs = () => {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://AiBikTechSolutions.com"
+          "item": "https://aibshtechnologies.in"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "About Us",
-          "item": "https://AiBikTechSolutions.com/about-us"
+          "item": "https://aibshtechnologies.in/about-us"
         }
       ]
     }
@@ -55,7 +55,7 @@ const AboutUs = () => {
         title="About AIBSH TECHNOLOGIES PVT LTD - Our Story, Mission & Digital Innovation Journey"
         description="Discover AIBSH TECHNOLOGIES PVT LTD's journey from innovative ideas to technological reality. Learn about our mission to bridge the gap between business challenges and digital transformation solutions."
         keywords="about AIBSH TECHNOLOGIES PVT LTD, digital transformation company, technology innovation, software development company, web development team, mobile app developers, AI solutions provider, data science experts"
-        url="https://AiBikTechSolutions.com/about-us"
+        url="https://aibshtechnologies.in/about-us"
         structuredData={aboutStructuredData}
       />
       

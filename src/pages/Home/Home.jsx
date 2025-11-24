@@ -32,13 +32,13 @@ export default function Home() {
     "@type": "WebPage",
     "name": "AIBSH TECHNOLOGIES PVT LTD - Leading Web Development, Mobile Apps, AI Solutions & Digital Innovation",
     "description": "AIBSH TECHNOLOGIES PVT LTD transforms businesses with cutting-edge web development, mobile apps, AI solutions, data science, and custom software. Expert digital innovation partner for modern businesses.",
-    "url": "https://AiBikTechSolutions.com",
+    "url": "https://aibshtechnologies.in",
     "mainEntity": {
       "@type": "Organization",
       "name": "AIBSH TECHNOLOGIES PVT LTD",
       "description": "Leading technology company specializing in digital transformation and innovative software solutions",
-      "url": "https://AiBikTechSolutions.com",
-      "logo": "https://AiBikTechSolutions.com/logo.png",
+      "url": "https://aibshtechnologies.in",
+      "logo": "https://aibshtechnologies.in/logo.png",
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": "+91-8018705115",
@@ -61,7 +61,7 @@ export default function Home() {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://AiBikTechSolutions.com"
+          "item": "https://aibshtechnologies.in"
         }
       ]
     }
@@ -73,7 +73,7 @@ export default function Home() {
         title="AIBSH TECHNOLOGIES PVT LTD - Leading Web Development, Mobile Apps, AI Solutions & Digital Innovation"
         description="AIBSH TECHNOLOGIES PVT LTD transforms businesses with cutting-edge web development, mobile apps, AI solutions, data science, and custom software. Expert digital innovation partner for modern businesses."
         keywords="web development, mobile app development, AI solutions, data science, custom software, digital transformation, technology consulting, React development, iOS apps, Android apps, machine learning, artificial intelligence, e-commerce solutions, healthcare technology, fintech solutions"
-        url="https://AiBikTechSolutions.com"
+        url="https://aibshtechnologies.in"
         structuredData={homeStructuredData}
       />
       

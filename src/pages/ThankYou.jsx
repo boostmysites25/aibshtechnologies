@@ -19,7 +19,7 @@ const ThankYou = () => {
     "@type": "WebPage",
     "name": "Thank You - AIBSH TECHNOLOGIES PVT LTD",
     "description": "Thank you for contacting AIBSH TECHNOLOGIES PVT LTD. We have received your message and will get back to you soon.",
-    "url": "https://AiBikTechSolutions.com/thank-you",
+    "url": "https://aibshtechnologies.in/thank-you",
     "breadcrumb": {
       "@type": "BreadcrumbList",
       "itemListElement": [
@@ -27,13 +27,13 @@ const ThankYou = () => {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://AiBikTechSolutions.com"
+          "item": "https://aibshtechnologies.in"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Thank You",
-          "item": "https://AiBikTechSolutions.com/thank-you"
+          "item": "https://aibshtechnologies.in/thank-you"
         }
       ]
     }
@@ -45,7 +45,7 @@ const ThankYou = () => {
         title="Thank You - AIBSH TECHNOLOGIES PVT LTD"
         description="Thank you for contacting AIBSH TECHNOLOGIES PVT LTD. We have received your message and will get back to you soon."
         keywords="thank you, contact confirmation, AIBSH TECHNOLOGIES PVT LTD"
-        url="https://AiBikTechSolutions.com/thank-you"
+        url="https://aibshtechnologies.in/thank-you"
         structuredData={thankYouStructuredData}
         noindex={true}
       />

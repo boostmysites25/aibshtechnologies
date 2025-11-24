@@ -41,4 +41,4 @@ Allow: /
 Crawl-delay: 1
 
 # Sitemap location
-Sitemap: https://AiBikTechSolutions.com/sitemap.xml
+Sitemap: https://aibshtechnologies.in/sitemap.xml
