@@ -1,22 +1,44 @@
 # https://www.robotstxt.org/robotstxt.html
+# Robots.txt for AIBSH TECHNOLOGIES PVT LTD
+
+# Allow all search engines
 User-agent: *
 Allow: /
 
-# Sitemap location
-Sitemap: https://AiBikTechSolutions.com/sitemap.xml
-
-# Disallow admin or private areas (if any)
+# Disallow admin or private areas
 Disallow: /admin/
 Disallow: /private/
 Disallow: /api/
+Disallow: /thank-you
 
-# Allow all other content
-Allow: /about-us/
-Allow: /services/
-Allow: /contact-us/
-Allow: /blogs/
-Allow: /web-development/
-Allow: /app-development/
+# Allow important pages
+Allow: /
+Allow: /about-us
+Allow: /services
+Allow: /contact-us
+Allow: /blogs
+Allow: /web-development
+Allow: /app-development
+Allow: /services/web-development
+Allow: /services/app-development
+Allow: /services/custom-software-development
+Allow: /services/ai-solutions
+Allow: /services/data-science-analytics
+Allow: /services/game-development
+Allow: /services/ui-ux-design
 
-# Crawl delay (optional)
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Slurp
+Allow: /
 Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://AiBikTechSolutions.com/sitemap.xml

@@ -1,93 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!-- Homepage -->
   <url>
     <loc>https://AiBikTechSolutions.com/</loc>
-    <lastmod>2024-12-29</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+  <!-- About Us -->
   <url>
     <loc>https://AiBikTechSolutions.com/about-us</loc>
-    <lastmod>2024-12-29</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Services Main Page -->
   <url>
     <loc>https://AiBikTechSolutions.com/services</loc>
-    <lastmod>2024-12-29</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+  <!-- Service Detail Pages -->
   <url>
     <loc>https://AiBikTechSolutions.com/services/web-development</loc>
-    <lastmod>2024-12-29</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://AiBikTechSolutions.com/services/app-development</loc>
-    <lastmod>2024-12-29</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://AiBikTechSolutions.com/services/custom-software-development</loc>
-    <lastmod>2024-12-29</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://AiBikTechSolutions.com/services/ai-solutions</loc>
-    <lastmod>2024-12-29</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://AiBikTechSolutions.com/services/data-science-analytics</loc>
-    <lastmod>2024-12-29</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://AiBikTechSolutions.com/services/game-development</loc>
-    <lastmod>2024-12-29</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://AiBikTechSolutions.com/services/ui-ux-design</loc>
-    <lastmod>2024-12-29</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Landing Pages -->
   <url>
     <loc>https://AiBikTechSolutions.com/web-development</loc>
-    <lastmod>2024-12-29</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://AiBikTechSolutions.com/app-development</loc>
-    <lastmod>2024-12-29</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <!-- Blogs -->
   <url>
     <loc>https://AiBikTechSolutions.com/blogs</loc>
-    <lastmod>2024-12-29</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
+  <!-- Contact Us -->
   <url>
     <loc>https://AiBikTechSolutions.com/contact-us</loc>
-    <lastmod>2024-12-29</lastmod>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://AiBikTechSolutions.com/thank-you</loc>
-    <lastmod>2024-12-29</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
   </url>
 </urlset>
